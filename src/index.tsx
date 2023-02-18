@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const num: number = 10;
+
+console.log(`Hello ${num}`);
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
